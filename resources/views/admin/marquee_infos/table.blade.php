@@ -4,7 +4,7 @@
             <tr>
                 <th>跑馬燈文字</th>
                 <th>狀態</th>
-                <th colspan="3">Action</th>
+                <th>操作</th>
             </tr>
         </thead>
         <tbody>

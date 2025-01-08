@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\NewsController;
+use App\Repositories\Admin\SeoSettingRepository;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
@@ -28,8 +30,63 @@ Route::any('/clear-cache', function () {
 });
 
 Route::get('/', function () {
-    return view('welcome');
+    $seoInfo = SeoSettingRepository::getInfo('/*');
+    return view('index')->with('seoInfo', $seoInfo);
 })->name('index');
+
+Route::get('/about', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/about');
+    return view('about')->with('seoInfo', $seoInfo);
+})->name('about');
+
+Route::get('/car', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/car');
+    return view('car')->with('seoInfo', $seoInfo);
+})->name('car');
+
+Route::get('/cheque', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/cheque');
+    return view('cheque')->with('seoInfo', $seoInfo);
+})->name('cheque');
+
+Route::get('/valuable', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/valuable');
+    return view('valuable')->with('seoInfo', $seoInfo);
+})->name('valuable');
+
+Route::get('/realestate', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/realestate');
+    return view('realestate')->with('seoInfo', $seoInfo);
+})->name('realestate');
+
+Route::get('/on-lendding', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/on-lendding');
+    return view('on-lendding')->with('seoInfo', $seoInfo);
+})->name('on-lendding');
+
+Route::get('/business', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/business');
+    return view('business')->with('seoInfo', $seoInfo);
+})->name('business');
+
+Route::get('/process', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/process');
+    return view('process')->with('seoInfo', $seoInfo);
+})->name('process');
+
+Route::get('/map', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/map');
+    return view('map')->with('seoInfo', $seoInfo);
+})->name('map');
+
+Route::get('/faq', function () {
+    $seoInfo = SeoSettingRepository::getInfo('/faq');
+    return view('faq')->with('seoInfo', $seoInfo);
+})->name('faq');
+
+Route::any('/news', [NewsController::class, 'index'])->name('news');
+Route::any('/news-details/{id}', [NewsController::class, 'detail'])->name('news.details');
+
 
 Auth::routes();
 
@@ -54,8 +111,8 @@ Route::post(
 Route::prefix('admin')->group(function () {
     Route::middleware(['auth'])->group(function () {
         Route::resource('seoSettings', App\Http\Controllers\Admin\SeoSettingController::class, ["as" => 'admin']);
-        // Route::resource('marqueeInfos', App\Http\Controllers\Admin\MarqueeInfoController::class, ["as" => 'admin']);
-        Route::resource('caseInfos', App\Http\Controllers\Admin\CaseInfoController::class, ["as" => 'admin']);
+        Route::resource('marqueeInfos', App\Http\Controllers\Admin\MarqueeInfoController::class, ["as" => 'admin']);
+        Route::resource('newsInfos', App\Http\Controllers\Admin\NewsInfoController::class, ["as" => 'admin']);
 
         Route::any('adminUsers', [App\Http\Controllers\Admin\AdminAccountController::class, 'index'])->name('admin.adminUsers.index');
         Route::any('adminUsers/create', [App\Http\Controllers\Admin\AdminAccountController::class, 'create'])->name('admin.adminUsers.create');

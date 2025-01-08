@@ -117,7 +117,7 @@ p {
   -o-transition: opacity 2s ease-in-out !important;
 }
 
-/* 
+/*
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: block;
     z-index: 1;
@@ -139,26 +139,26 @@ p {
 #main {
     /* background-color: #ece9e2d7; */
   }
-  
+
   .bg-gray-20 {
     /* background-color: #ece9e2d7; */
     background-color: #f9f5f1;
   }
-  
+
   #hero {
     /* background: linear-gradient(#fff 0%, #f1f0ede0 50%, #ece9e2d7 50%); */
     background: linear-gradient(#fff 0%, #ece9e2d7 50%, #f9f5f1 100%);
     /* background: linear-gradient(#fff 0%, #f9f5f1 100%); */
   }
-  
+
   .carousel-caption {
     background: transparent !important;
   }
-  
+
   #hero {
     min-height: auto !important;
   }
-  
+
   #hero .item1,
   #hero .item2,
   #hero .item3 {
@@ -167,7 +167,7 @@ p {
     background-repeat: no-repeat;
     /* width: 100vw; */
   }
-  
+
   #hero .item1 {
     background-image: url(../images/00-hp/banner01_624.jpg);
   }
@@ -177,7 +177,7 @@ p {
   #hero .item3 {
     background-image: url(../images/00-hp/banner03_624.jpg);
   }
-  
+
   @media (max-width: 768px) {
     #hero .item1,
     #hero .item2,
@@ -186,7 +186,7 @@ p {
       /* height: 100vw; 以正方形顯示 */
     }
   }
-  
+
   @media (min-width: 768px) and (max-width: 1024px) {
     #hero .item1,
     #hero .item2,
@@ -194,7 +194,7 @@ p {
       height: var(--banner-ratio-1024);
     }
   }
-  
+
   @media (min-width: 1024px) and (max-width: 1280px) {
     #hero .item1,
     #hero .item2,
@@ -202,7 +202,7 @@ p {
       height: var(--banner-ratio-1280);
     }
   }
-  
+
   @media (min-width: 1280px) and (max-width: 1440px) {
     #hero .item1,
     #hero .item2,
@@ -210,7 +210,7 @@ p {
       height: var(--banner-ratio-1440);
     }
   }
-  
+
   @media (min-width: 1440px) {
     #hero .item1,
     #hero .item2,
@@ -218,7 +218,7 @@ p {
       height: var(--banner-ratio-1920);
     }
   }
-  
+
   @media (min-width: 768px) and (max-width: 1024px) {
     #hero .item1 {
       background-image: url(../images/00-hp/banner01_1024.jpg);
@@ -230,7 +230,7 @@ p {
       background-image: url(../images/00-hp/banner03_1024.jpg);
     }
   }
-  
+
   @media (min-width: 1024px) and (max-width: 1280px) {
     #hero .item1 {
       background-image: url(../images/00-hp/banner01_1280.jpg);
@@ -242,7 +242,7 @@ p {
       background-image: url(../images/00-hp/banner03_1280.jpg);
     }
   }
-  
+
   @media (min-width: 1280px) and (max-width: 1440px) {
     #hero .item1 {
       background-image: url(../images/00-hp/banner01_1440.jpg);
@@ -254,7 +254,7 @@ p {
       background-image: url(../images/00-hp/banner03_1440.jpg);
     }
   }
-  
+
   @media (min-width: 1440px) {
     #hero .item1 {
       background-image: url(../images/00-hp/banner01_1920.jpg);
@@ -266,13 +266,13 @@ p {
       background-image: url(../images/00-hp/banner03_1920.jpg);
     }
   }
-  
+
   .navbar .navbar-brand {
     position: relative;
     height: inherit !important;
     width: inherit !important;
   }
-  
+
   .navbar .navbar-brand img {
     height: 3.5rem;
   }
@@ -282,7 +282,7 @@ p {
       height: 3rem;
     }
   }
-  
+
   .marquee {
     width: 100%;
     overflow: hidden;
@@ -347,7 +347,7 @@ p {
   height: 120px;
   width: 120px;
   margin-bottom: 15px;
-  
+
 }
 
 .services-item .card-title {
@@ -1077,7 +1077,7 @@ p {
 }
 
 .process-content h5:first-child {
-  background-color: #cc914b; 
+  background-color: #cc914b;
   color: #fff;
   padding: 5px 10px;
   white-space: nowrap;
@@ -1238,3 +1238,51 @@ p {
     height: 50vw;
   }
 }
+
+.single-ellipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+
+    /* line-clamp: 5; */
+
+    /*
+    display: flex;
+    flex-direction: column;
+    line-clamp: 5;
+    overflow: hidden;
+    */
+  }
+
+  .multiline-ellipsis-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+
+    /* line-clamp: 5; */
+
+    /*
+    display: flex;
+    flex-direction: column;
+    line-clamp: 5;
+    overflow: hidden;
+    */
+  }
+
+  .multiline-ellipsis-5 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+
+    /* line-clamp: 5; */
+
+    /*
+    display: flex;
+    flex-direction: column;
+    line-clamp: 5;
+    overflow: hidden;
+    */
+  }
