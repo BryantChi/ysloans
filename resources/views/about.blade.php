@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="row justify-content-center align-items-center mx-lg-auto mx-2 mt-4">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-3">
                         <div class="about-slogn-item">
                             <div class="about-slogn-icon text-center mb-3">
                                 <img src="{{asset('assets/images/01/01icon01.png')}}" class="img-fluid" alt="">
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-3">
                         <div class="about-slogn-item">
                             <div class="about-slogn-icon text-center mb-3">
                                 <img src="{{asset('assets/images/01/01icon02.png')}}" class="img-fluid" alt="">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-3">
                         <div class="about-slogn-item">
                             <div class="about-slogn-icon text-center mb-3">
                                 <img src="{{asset('assets/images/01/01icon03.png')}}" class="img-fluid" alt="">
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-3">
                         <div class="about-slogn-item">
                             <div class="about-slogn-icon text-center mb-3">
                                 <img src="{{asset('assets/images/01/01icon04.png')}}" class="img-fluid" alt="">
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="row justify-content-center align-items-center mx-lg-auto mx-2 mt-4">
-                    <div class="col-lg-7 mb-lg-5 mb-3">
+                    <div class="col-lg-7 mb-lg-5 mb-3 order-2 order-lg-1">
                         <div class="about-content">
                             <h5>玉山優質當舖 — 雲林頂尖的融資夥伴</h5>
                             <p>
@@ -81,7 +81,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-5 mb-lg-5 mb-3">
+                    <div class="col-lg-5 mb-lg-5 mb-3 order-1 order-lg-2">
                         <div class="about-img">
                             <picture class="img-fluid wow fadeInUp" data-wow-delay="0.1s">
                                 <source srcset="{{asset('assets/images/01/01pic1_512.jpg')}}" media="(max-width: 768px)" type="image/jpg">

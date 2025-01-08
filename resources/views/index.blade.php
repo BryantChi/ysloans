@@ -58,57 +58,69 @@
 
                 <div class="row justify-content-center align-items-center mx-lg-auto mx-2">
                     <div class="col-lg-3 col-md-6 col-12 text-center py-3">
-                        <div class="card shadow-sm services-item">
-                            <div class="card-body">
-                                <img src="{{asset('assets/images/00-hp/sericon01.svg')}}" class="img-fluid services-item-img-first"
-                                    alt="">
-                                <h5 class="card-title">汽機車借款</h5>
+                        <a href="{{ route('car') }}">
+                            <div class="card shadow-sm services-item">
+                                <div class="card-body">
+                                    <img src="{{asset('assets/images/00-hp/sericon01.svg')}}" class="img-fluid services-item-img-first"
+                                        alt="">
+                                    <h5 class="card-title">汽機車借款</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 text-center py-3">
-                        <div class="card shadow-sm services-item">
-                            <div class="card-body">
-                                <img src="{{asset('assets/images/00-hp/sericon02.svg')}}" class="img-fluid services-item-img" alt="">
-                                <h5 class="card-title">支客票貼現</h5>
+                        <a href="{{ route('cheque') }}">
+                            <div class="card shadow-sm services-item">
+                                <div class="card-body">
+                                    <img src="{{asset('assets/images/00-hp/sericon02.svg')}}" class="img-fluid services-item-img" alt="">
+                                    <h5 class="card-title">支客票貼現</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 text-center py-3">
-                        <div class="card shadow-sm services-item">
-                            <div class="card-body">
-                                <img src="{{asset('assets/images/00-hp/sericon03.svg')}}" class="img-fluid services-item-img" alt="">
-                                <h5 class="card-title">房地融資代辦</h5>
+                        <a href="{{ route('realestate') }}">
+                            <div class="card shadow-sm services-item">
+                                <div class="card-body">
+                                    <img src="{{asset('assets/images/00-hp/sericon03.svg')}}" class="img-fluid services-item-img" alt="">
+                                    <h5 class="card-title">房地融資代辦</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-12"></div>
 
                     <div class="col-lg-3 col-md-6 col-12 text-center py-3">
-                        <div class="card shadow-sm services-item">
-                            <div class="card-body">
-                                <img src="{{asset('assets/images/00-hp/sericon04.svg')}}" class="img-fluid services-item-img" alt="">
-                                <h5 class="card-title">黄金/精品/3C產品</h5>
+                        <a href="{{ route('valuable') }}">
+                            <div class="card shadow-sm services-item">
+                                <div class="card-body">
+                                    <img src="{{asset('assets/images/00-hp/sericon04.svg')}}" class="img-fluid services-item-img" alt="">
+                                    <h5 class="card-title">黄金/精品/3C產品</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-12 text-center py-3">
-                        <div class="card shadow-sm services-item">
-                            <div class="card-body">
-                                <img src="{{asset('assets/images/00-hp/sericon05.svg')}}" class="img-fluid services-item-img" alt="">
-                                <h5 class="card-title">代償降息專案</h5>
+                        <a href="{{ route('on-lendding') }}">
+                            <div class="card shadow-sm services-item">
+                                <div class="card-body">
+                                    <img src="{{asset('assets/images/00-hp/sericon05.svg')}}" class="img-fluid services-item-img" alt="">
+                                    <h5 class="card-title">代償降息專案</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 text-center py-3">
-                        <div class="card shadow-sm services-item">
-                            <div class="card-body">
-                                <img src="{{asset('assets/images/00-hp/sericon06.svg')}}" class="img-fluid services-item-img" alt="">
-                                <h5 class="card-title">工商企業融資</h5>
+                        <a href="{{ route('business') }}">
+                            <div class="card shadow-sm services-item">
+                                <div class="card-body">
+                                    <img src="{{asset('assets/images/00-hp/sericon06.svg')}}" class="img-fluid services-item-img" alt="">
+                                    <h5 class="card-title">工商企業融資</h5>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -174,7 +186,7 @@
                 <div class="row justify-content-center align-items-center mx-lg-auto mx-2">
                     <div class="col-12 text-center py-3 step-section-title">
                         <h4 class="mx-auto mb-3">玉山優質當舖</h4>
-                        <h4 class="mx-auto">簡單<span class="text-danger">4</span>步驟，快速核貸超有感！</h4>
+                        <h4 class="mx-auto">簡單<span style="color: #e75303">4</span>步驟，快速核貸超有感！</h4>
                     </div>
 
                 </div>

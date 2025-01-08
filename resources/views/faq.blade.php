@@ -42,7 +42,7 @@
                                     <div class="line my-3"></div>
                                     <p>
                                         手機點選LINE免費諮詢按鈕或是掃描玉山優質當舖的LINE QRCODE，也可以輸入官方帳號（ID）<span
-                                            class="text-line">y$5334000</span>，<br>
+                                            class="text-line">ys5334000</span>，<br>
                                         即可加入好友詢問！<br>
                                         無論您有任何借款需求或疑問，斗六玉山優質當鋪的專業客服團隊都能透過LINE為您提供即時協助！加入好友，您就可以隨時隨地與我們的客服人員聯繫，了解借款流程、諮詢利率或解決各種資金周轉問題。
                                     </p>
@@ -55,7 +55,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q1.</span>什麼是典當服務？</h5>
+                                <h5><span style="color: #e75303;">Q1.</span>什麼是典當服務？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -71,7 +71,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q2.</span>玉山優質當鋪提供哪些典當服務？</h5>
+                                <h5><span style="color: #e75303;">Q2.</span>玉山優質當鋪提供哪些典當服務？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -87,7 +87,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q3.</span>如何確保我的物品在當鋪中的安全？</h5>
+                                <h5><span style="color: #e75303;">Q3.</span>如何確保我的物品在當鋪中的安全？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -103,7 +103,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q4.</span>典當後我什麼時候可以取回物品？</h5>
+                                <h5><span style="color: #e75303;">Q4.</span>典當後我什麼時候可以取回物品？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -119,7 +119,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q5.</span>利息怎麼計算？會有額外費用嗎？</h5>
+                                <h5><span style="color: #e75303;">Q5.</span>利息怎麼計算？會有額外費用嗎？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -135,7 +135,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q6.</span>如果我無法按時還款會怎麼樣？</h5>
+                                <h5><span style="color: #e75303;">Q6.</span>如果我無法按時還款會怎麼樣？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -151,7 +151,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q7.</span>玉山當鋪的借款手續繁瑣嗎？</h5>
+                                <h5><span style="color: #e75303;">Q7.</span>玉山當鋪的借款手續繁瑣嗎？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -167,7 +167,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q8.</span>是否需要信用檢查或提供收入證明？</h5>
+                                <h5><span style="color: #e75303;">Q8.</span>是否需要信用檢查或提供收入證明？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -183,7 +183,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q9.</span>玉山當鋪的服務對象有哪些？</h5>
+                                <h5><span style="color: #e75303;">Q9.</span>玉山當鋪的服務對象有哪些？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>
@@ -199,7 +199,7 @@
                     <div class="col-lg-12 mb-3 px-0">
                         <div class="faq-item-box px-3">
                             <div class="faq-item-q d-flex justify-content-between">
-                                <h5><span class="text-danger">Q10.</span>如何聯繫玉山優質當鋪？</h5>
+                                <h5><span style="color: #e75303;">Q10.</span>如何聯繫玉山優質當鋪？</h5>
                                 <span class="faq-item-arrow-d"><i class="bi bi-dash-lg"></i></span>
                                 <span class="faq-item-arrow-p d-none"><i class="bi bi-plus-lg"></i></span>
                             </div>

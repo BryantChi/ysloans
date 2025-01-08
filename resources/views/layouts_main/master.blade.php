@@ -50,6 +50,9 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v21.0&appId=145758039294658"></script>
+
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -70,13 +73,13 @@
     <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a> -->
     <a href="#" class="rounded-circle back-to-top">
-        <img src="images/00-hp/top.png" class="img-fluid" style="width: 50px;" alt="">
+        <img src="{{asset('assets/images/00-hp/top.png')}}" class="img-fluid" style="width: 50px;" alt="">
     </a>
 
     <div class="d-none d-md-block social-links-btn">
-        <a href="line://ti/p/ys5334000" class="d-none d-md-block"><img src="images/00-hp/left_line.png"
+        <a href="https://line.me/ti/p/8GFCYdA4LN" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_line.png')}}"
                 class="img-fluid left-line-img" alt=""></a>
-        <a href="" class="d-none d-md-block"><img src="images/00-hp/left_msg.png" class="img-fluid left-msg-img"
+        <a href="https://www.facebook.com/messages/t/104859159150782" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_mes.png')}}" class="img-fluid left-msg-img"
                 alt=""></a>
     </div>
 
@@ -84,8 +87,8 @@
     <div class="d-flex d-md-none w-100 position-fixed bottom-0 left-0 social-links-btn-mobile">
         <div class="row justify-content-center align-content-center text-center p-0 m-0 w-100">
             <div class="col-4 s-line-btn align-self-center">
-                <a href="line://ti/p/ys5334000" target="_blank">
-                    <span><i class="bi bi-line"></i></span> 線上預約
+                <a href="https://line.me/ti/p/8GFCYdA4LN" target="_blank">
+                    <span><i class="bi bi-line"></i></span> 免費諮詢
                 </a>
             </div>
             <div class="col-4 s-phone-btn align-self-center">

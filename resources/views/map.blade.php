@@ -63,12 +63,12 @@
                 <div class="col-12 mb-0 px-0 position-relative">
 
                     <div class="container px-2">
-                        <div class="row position-relative mb-5 align-items-center" style="z-index: 2;">
-                            <div class="col-lg-7">
+                        <div class="row position-relative mb-5 align-items-end" style="z-index: 2;">
+                            <div class="col-lg-7 mb-lg-0 mb-4">
                                 <img src="{{asset('assets/images/06/06pic1.jpg')}}" class="img-fluid map-pic-img1" alt="">
                             </div>
                             <div class="col-lg-5 d-block">
-                                <div class="contact-info py-md-3 mb-3">
+                                <div class="contact-info py-md-3 mb-lg-3 mb-4">
                                     <h5 class="text-primary">在地經營多年，累積許多客戶的好口碑</h5>
                                     <p>實體店面經營、高額低利，全程保密您的隱私，<br>有任何資金需求，斗六玉山優質當鋪都能提供即時協助，<br>政府立案合法安全，讓您安心、放心、迅速取得資金！</p>
                                     <img src="{{asset('assets/images/06/bu_line.svg')}}" class="img-fluid" alt="">

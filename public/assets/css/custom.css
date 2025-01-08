@@ -928,6 +928,10 @@ p {
   color: #6e6e6e;
 }
 
+.services-item-text h4 {
+    color: #745b4a !important;
+}
+
 .bg-car {
   background: #f4f4f4;
 }

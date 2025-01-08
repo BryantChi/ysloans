@@ -23,8 +23,31 @@
                         <p class="text-light mb-0">店面服務地址：雲林縣斗六市明德北路二段419號</p>
                         <p class="text-light mb-0">E-mail：<a href="mailto:steven7235@yahoo.com.tw"
                                 class="text-light">steven7235@yahoo.com.tw</a></p>
-                        <p class="text-light mb-0">本日人氣：<span class="me-3 numtxt">375</span> 累計人氣：<span
-                                class="numtxt">28016</span></p>
+                        <div class="d-flex align-items-end">
+                            <p class="text-light mb-0">本日人氣：</p>
+                            <div class="d-flex">
+                                <img src="{{ asset('assets/images/00-hp/3.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                                <img src="{{ asset('assets/images/00-hp/0.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                                <img src="{{ asset('assets/images/00-hp/7.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                            </div>
+                            &emsp;
+                            <p class="text-light mb-0">累積人氣：</p>
+                            <div class="d-flex">
+                                <img src="{{ asset('assets/images/00-hp/2.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                                <img src="{{ asset('assets/images/00-hp/8.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                                <img src="{{ asset('assets/images/00-hp/0.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                                <img src="{{ asset('assets/images/00-hp/1.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                                <img src="{{ asset('assets/images/00-hp/6.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                                    alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -48,9 +71,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-auto col-md-6">
-                <div class="d-flex justify-content-end">
-                    <img src="{{asset('assets/images/00-hp/footer_ig.png')}}" class="img-fluid" style="width: 50px;" alt="">
+            <div class="col-lg col-md-6 justify-content-lg-end">
+                <div class="d-flex justify-content-lg-end">
+                    <a href="https://www.instagram.com/ys5334000/">
+                        <img src="{{asset('assets/images/00-hp/footer_ig.png')}}" class="img-fluid" style="width: 50px;" alt="">
+                    </a>
+                </div>
+                <div class="w-100 text-lg-end">
+                    <div class="fb-page" data-href="https://www.facebook.com/ys055334000/" data-tabs="" data-width="300" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ys055334000/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ys055334000/">斗六玉山優質融資</a></blockquote></div>
                 </div>
             </div>
             <div class="col-12 my-3">

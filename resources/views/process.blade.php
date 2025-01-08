@@ -18,7 +18,7 @@
                         </div>
                         <p class="text-center">
                             玉山優質當舖的借款流程簡單、透明且快速，<br>
-                            只需<span class="text-danger" style="font-size:23px !important;">4</span>步驟，讓您輕鬆取得資金，解決資金周轉問題！
+                            只需<span style="color: #e75303;font-size:23px !important;">4</span>步驟，讓您輕鬆取得資金，解決資金周轉問題！
                         </p>
                     </div>
 
@@ -173,11 +173,11 @@
                     <h5 style="color:#cd934b;">有任何資金需求都可以透過LINE或撥打服務專線聯絡我們！</h5>
 
                     <div class="d-block d-md-flex align-items-center mt-4">
-                        <a href="line://ti/p/ys5334000" class="">
+                        <a href="https://line.me/ti/p/8GFCYdA4LN" class="">
                             <img src="{{asset('assets/images/03/bu_line.svg')}}" class="img-fluid me-3 mb-md-0 mb-2" style="width: 14rem;"
                                 alt="">
                         </a>
-                        <a href="tel:" class="">
+                        <a href="tel:05-5334000" class="">
                             <img src="{{asset('assets/images/03/bu_phone.svg')}}" class="img-fluid" style="width: 14rem;" alt="">
                         </a>
 
