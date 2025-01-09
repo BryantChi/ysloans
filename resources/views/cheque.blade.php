@@ -12,7 +12,7 @@
                     <div class="col-12">
                         <div class="pg-section-title wm-content mx-auto text-center">
                             <h3>支客票貼現</h3>
-                            <p class="sub-title">Car</p>
+                            <p class="sub-title">Cheque</p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                                 <img src="{{asset('assets/images/02/02_2icon5.png')}}" class="img-fluid" alt="">
                             </div>
                             <div class="services-item-text text-center">
-                                <h4>低利率優勢</h4>
+                                <h4>靈活的審核標準</h4>
                             </div>
                         </div>
                     </div>

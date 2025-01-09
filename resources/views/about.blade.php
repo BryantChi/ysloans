@@ -89,7 +89,7 @@
                             </picture>
                         </div>
                     </div>
-                    <div class="col-lg-5 mb-lg-auto mb-3">
+                    <div class="col-lg-5 mb-lg-auto mb-3 order-3">
                         <div class="about-img">
                             <picture class="img-fluid wow fadeInUp" data-wow-delay="0.1s">
                                 <source srcset="{{asset('assets/images/01/01pic2_640.jpg')}}" media="(max-width: 768px)" type="image/jpg">
@@ -97,7 +97,7 @@
                             </picture>
                         </div>
                     </div>
-                    <div class="col-lg-7 mb-lg-auto mb-3">
+                    <div class="col-lg-7 mb-lg-auto mb-3 order-4">
                         <div class="about-content">
                             <h5>政府合法立案，正派經營</h5>
                             <p>

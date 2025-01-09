@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid bg-white sticky-top pt-lg-4 pt-3 pb-2 site-navbar" id="header">
+<div class="container-fluid bg-white sticky-top pt-lg-3 pt-3 pb-2 site-navbar" id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
             <a href="{{ route('index') }}" class="navbar-brand">
@@ -13,7 +13,7 @@
                 <div class="navbar-nav ms-auto">
                     <a href="{{ route('about') }}" class="nav-link active d-flex">
                         <div class="text-center">
-                            <span class="nav-link-text d-block">關於我們</span>
+                            <span class="nav-link-text d-block">公司簡介</span>
                             <span class="nav-link-sub-text d-block">About</span>
                         </div>
                     </a>
@@ -27,8 +27,8 @@
                         <div class="dropdown-menu bg-light rounded-0 m-0 nav-dropdown text-lg-center">
                             <a href="{{ route('car') }}" class="dropdown-item">汽機車借款</a>
                             <a href="{{ route('cheque') }}" class="dropdown-item">支客票貼現</a>
-                            <a href="{{ route('valuable') }}" class="dropdown-item">房地融資代辦</a>
-                            <a href="{{ route('realestate') }}" class="dropdown-item">黃金/精品/3C產品</a>
+                            <a href="{{ route('realestate') }}" class="dropdown-item">房地融資代辦</a>
+                            <a href="{{ route('valuable') }}" class="dropdown-item">黃金/精品/3C產品</a>
                             <a href="{{ route('on-lendding') }}" class="dropdown-item">代償降息專案</a>
                             <a href="{{ route('business') }}" class="dropdown-item">工商企業融資</a>
                         </div>

@@ -22,7 +22,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="services-item-box1">
                             <div class="services-item-icon text-center mb-3">
-                                <img src="ima{{asset('assets/ges/02/02_4icon1.png" c')}}lass="img-fluid" alt="">
+                                <img src="{{asset('assets/images/02/02_4icon1.png')}}" class="img-fluid" alt="">
                             </div>
                             <div class="services-item-text text-center">
                                 <h4>高度專業的鑑定與估價</h4>
