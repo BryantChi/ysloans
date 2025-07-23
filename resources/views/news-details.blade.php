@@ -32,7 +32,7 @@
 
                     <div class="col-12">
                         <div class="news-inner-content">
-                            <img src="images/04/news_inside_pic.jpg" class="img-fluid mb-3" alt="">
+                            {{-- <img src="{{ asset('assets/images/04/news_inside_pic.jpg')}}" class="img-fluid mb-3" alt=""> --}}
 
                             {!! $newsInfo->content !!}
                         </div>

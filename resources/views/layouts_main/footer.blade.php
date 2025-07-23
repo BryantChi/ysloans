@@ -25,18 +25,28 @@
                                 class="text-light">steven7235@yahoo.com.tw</a></p>
                         <div class="d-flex align-items-end">
                             <p class="text-light mb-0">本日人氣：</p>
-                            <div class="d-flex">
-                                <img src="{{ asset('assets/images/00-hp/3.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                            <div class="d-flex" id="counter-today">
+                                @if(isset($visitorCountToday))
+                                    @foreach (str_split($visitorCountToday) as $digit)
+                                        <img src="{{ asset('assets/images/00-hp/' . $digit . '.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;" alt="{{ $digit }}">
+                                    @endforeach
+                                @endif
+                                {{-- <img src="{{ asset('assets/images/00-hp/3.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
                                     alt="">
                                 <img src="{{ asset('assets/images/00-hp/0.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
                                     alt="">
                                 <img src="{{ asset('assets/images/00-hp/7.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
-                                    alt="">
+                                    alt=""> --}}
                             </div>
                             &emsp;
                             <p class="text-light mb-0">累積人氣：</p>
-                            <div class="d-flex">
-                                <img src="{{ asset('assets/images/00-hp/2.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
+                            <div class="d-flex" id="counter">
+                                @if(isset($visitorCount))
+                                    @foreach (str_split(($visitorCount + 28015)) as $digit)
+                                        <img src="{{ asset('assets/images/00-hp/' . $digit . '.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;" alt="{{ $digit }}">
+                                    @endforeach
+                                @endif
+                                {{-- <img src="{{ asset('assets/images/00-hp/2.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
                                     alt="">
                                 <img src="{{ asset('assets/images/00-hp/8.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
                                     alt="">
@@ -45,7 +55,7 @@
                                 <img src="{{ asset('assets/images/00-hp/1.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
                                     alt="">
                                 <img src="{{ asset('assets/images/00-hp/6.png') }}" class="img-fluid mb-1" style="width: auto; height: 21px;"
-                                    alt="">
+                                    alt=""> --}}
                             </div>
                         </div>
                     </div>
@@ -57,7 +67,7 @@
                     <div class="me-2">
                         <a href="{{ route('car') }}" class="d-block text-light">汽機車借款</a>
                         <a href="{{ route('cheque') }}" class="d-block text-light">支客票貼現</a>
-                        <a href="{{ route('realestate') }}" class="d-block text-light">房地融資代辦</a>
+                        <a href="{{ route('realestate') }}" class="d-block text-light">房屋土地融資</a>
                         <a href="{{ route('valuable') }}" class="d-block text-light">黃金/精品/3C產品</a>
                         <a href="{{ route('on-lendding') }}" class="d-block text-light">代償降息專案</a>
                         <a href="{{ route('business') }}" class="d-block text-light">工商企業融資</a>
@@ -116,10 +126,36 @@
                 </p>
             </div>
             <div class="col-md-auto text-center text-md-start">
-                <p class="mb-0 text-uppercase">© Copyright 2024 All Rights Reserved 聯大優質當舖 Web Design Power By <a
+                <p class="mb-0 text-uppercase">© Copyright 2024 All Rights Reserved 玉山當舖 Web Design Power By <a
                         href="https://cheni.com.tw/" target="_blank">誠翊資訊</a></p>
             </div>
         </div>
     </div>
 </div>
 <!-- Copyright End -->
+{{-- @push('page_scripts')
+
+<script>
+    // 使用 jQuery 定時向 API 請求最新計數
+    function updateCounter() {
+        $.ajax({
+            url: '{{ route('counter.api') }}',
+            type: 'GET',
+            success: function(data) {
+                var basePath = "{{ asset('assets/images/00-hp') }}";
+                var countStr = data.count.toString();
+                var html = '';
+                for (var i = 0; i < countStr.length; i++) {
+                    // html += '<img src="/images/digits/' + countStr[i] + '.png" alt="' + countStr[i] + '">';
+                    html += `<img src="${basePath}/${countStr[i]}.png" class="img-fluid mb-1" style="width: auto; height: 21px;" alt="">`;
+                }
+                $('#counter').html(html);
+            }
+        });
+    }
+
+    // 每 30 秒更新一次（依需求調整時間）
+    setInterval(updateCounter, 30000);
+</script>
+
+@endpush --}}

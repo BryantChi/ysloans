@@ -31,7 +31,8 @@
                     <div class="col-lg-12 mb-5">
                         <div class="faq-header row align-items-center">
                             <div class="col-lg-3 text-center mb-lg-0 mb-3">
-                                <img src="{{asset('assets/images/05/05ban_pic.png')}}" class="img-fluid w-m-75" alt="">
+                                <img src="{{ asset('assets/images/05/05ban_pic.png') }}" class="img-fluid w-m-75"
+                                    alt="">
                             </div>
                             <div class="col-lg-9">
                                 <div class="faq-header-content">
@@ -220,3 +221,25 @@
 
     </div>
 @endsection
+
+@push('page_scripts')
+    <script>
+        $(function() {
+            $.each($('.faq-item-box'), function(i, v) {
+                $(this).find('.faq-item-q').on('click', function() {
+                    // 關閉所有其他的 .faq-item-a 和重設箭頭狀態
+                    $('.faq-item-box').not($(this).parent()).find('.faq-item-a').slideUp();
+                    $('.faq-item-box').not($(this).parent()).find('.faq-item-arrow-p').removeClass(
+                        'd-none');
+                    $('.faq-item-box').not($(this).parent()).find('.faq-item-arrow-d').addClass(
+                        'd-none');
+
+                    // 切換當前項目的狀態
+                    $(this).parent().find('.faq-item-a').slideToggle();
+                    $(this).find('.faq-item-arrow-p').toggleClass('d-none');
+                    $(this).find('.faq-item-arrow-d').toggleClass('d-none');
+                })
+            })
+        })
+    </script>
+@endpush

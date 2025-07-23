@@ -294,7 +294,7 @@ p {
     display: inline-block;
     padding-left: 100%;
     animation: marquee 20s linear infinite;
-    color: #d09a5d;
+    color: #8e5433;
     -webkit-animation: marquee 20s linear infinite;
   }
   @keyframes marquee {

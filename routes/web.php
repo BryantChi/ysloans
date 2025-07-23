@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\VisitorController;
 use App\Repositories\Admin\SeoSettingRepository;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
@@ -87,6 +88,10 @@ Route::get('/faq', function () {
 Route::any('/news', [NewsController::class, 'index'])->name('news');
 Route::any('/news-details/{id}', [NewsController::class, 'detail'])->name('news.details');
 
+Route::get('/counter', [VisitorController::class, 'count'])->name('counter');
+Route::get('/counter/api', [VisitorController::class, 'getCount'])->name('counter.api');
+Route::get('/counter-today', [VisitorController::class, 'countToday'])->name('counter.today');
+Route::get('/counter-today/api', [VisitorController::class, 'getCountToday'])->name('counter.today.api');
 
 Auth::routes();
 
@@ -122,4 +127,9 @@ Route::prefix('admin')->group(function () {
         Route::any('adminUsers/update/{id}', [App\Http\Controllers\Admin\AdminAccountController::class, 'update'])->name('admin.adminUsers.update');
         Route::any('adminUsers/destroy/{id}', [App\Http\Controllers\Admin\AdminAccountController::class, 'destroy'])->name('admin.adminUsers.destroy');
     });
+});
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::resource('visitorLogs', App\Http\Controllers\Admin\VisitorLogController::class, ["as" => 'admin']);
 });

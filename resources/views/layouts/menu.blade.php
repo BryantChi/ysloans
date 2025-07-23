@@ -39,3 +39,11 @@
 </li>
 
 
+<li class="nav-item">
+    <a href="{{ route('admin.visitorLogs.index') }}"
+       class="nav-link {{ Request::is('admin/visitorLogs*') ? 'active' : '' }}">
+        <p>Visitor Logs</p>
+    </a>
+</li>
+
+

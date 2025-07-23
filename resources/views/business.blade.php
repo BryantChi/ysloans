@@ -111,7 +111,7 @@
                     <div class="col-12">
                         <div class="services-notice">
                             <h5>借款特色</h5>
-                            <p>年滿20歲之企業主、攤販自營商、工廠或公司老闆，來就借！</p>
+                            <p>年滿18歲之企業主、攤販自營商、工廠或公司老闆，來就借！</p>
                         </div>
                         <div class="services-notice">
                             <h5>應備文件</h5>

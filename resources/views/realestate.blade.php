@@ -11,7 +11,7 @@
                 <div class="row justify-content-center align-items-center mx-lg-auto mx-2 mt-lg-3 mt-5">
                     <div class="col-12">
                         <div class="pg-section-title wm-content mx-auto text-center">
-                            <h3>房地融資代辦</h3>
+                            <h3>房屋土地融資</h3>
                             <p class="sub-title">Real Estate</p>
                         </div>
                     </div>
@@ -92,7 +92,9 @@
                     <div class="col-12">
                         <div class="services-notice">
                             <h5>借款特色</h5>
-                            <p>年滿20歲之中華民國國民，持有銀行支票、客票即可辦理。</p>
+                            <p>
+                                年滿18歲之房屋或土地持有所有人皆可辦理。
+                            </p>
                         </div>
                         <div class="services-notice">
                             <h5>應備文件</h5>

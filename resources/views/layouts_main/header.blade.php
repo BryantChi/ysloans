@@ -27,7 +27,7 @@
                         <div class="dropdown-menu bg-light rounded-0 m-0 nav-dropdown text-lg-center">
                             <a href="{{ route('car') }}" class="dropdown-item">汽機車借款</a>
                             <a href="{{ route('cheque') }}" class="dropdown-item">支客票貼現</a>
-                            <a href="{{ route('realestate') }}" class="dropdown-item">房地融資代辦</a>
+                            <a href="{{ route('realestate') }}" class="dropdown-item">房屋土地融資</a>
                             <a href="{{ route('valuable') }}" class="dropdown-item">黃金/精品/3C產品</a>
                             <a href="{{ route('on-lendding') }}" class="dropdown-item">代償降息專案</a>
                             <a href="{{ route('business') }}" class="dropdown-item">工商企業融資</a>

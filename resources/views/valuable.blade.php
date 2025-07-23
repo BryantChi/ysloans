@@ -92,7 +92,7 @@
                     <div class="col-12">
                         <div class="services-notice">
                             <h5>借款特色</h5>
-                            <p>年滿20歲持有有價物品之中華民國國民皆可辦理。</p>
+                            <p>年滿18歲持有有價物品之中華民國國民皆可辦理。</p>
                         </div>
                         <div class="services-notice">
                             <h5>應備文件</h5>

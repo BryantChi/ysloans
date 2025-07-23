@@ -47,11 +47,35 @@
     @stack('third_party_stylesheets')
 
     @stack('page_css')
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N9K5NZ92');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9K5NZ92" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v21.0&appId=145758039294658"></script>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v21.0&appId=145758039294658"></script>
 
     <!-- Spinner Start -->
     <div id="spinner"
@@ -73,13 +97,15 @@
     <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a> -->
     <a href="#" class="rounded-circle back-to-top">
-        <img src="{{asset('assets/images/00-hp/top.png')}}" class="img-fluid" style="width: 50px;" alt="">
+        <img src="{{ asset('assets/images/00-hp/top.png') }}" class="img-fluid" style="width: 50px;" alt="">
     </a>
 
     <div class="d-none d-md-block social-links-btn">
-        <a href="https://line.me/ti/p/8GFCYdA4LN" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_line.png')}}"
-                class="img-fluid left-line-img" alt=""></a>
-        <a href="https://www.facebook.com/messages/t/104859159150782" class="d-none d-md-block"><img src="{{asset('assets/images/00-hp/left_mes.png')}}" class="img-fluid left-msg-img"
+        <a href="https://line.me/ti/p/8GFCYdA4LN" class="d-none d-md-block"><img
+                src="{{ asset('assets/images/00-hp/left_line.png') }}" class="img-fluid left-line-img"
+                alt=""></a>
+        <a href="https://www.facebook.com/messages/t/104859159150782" class="d-none d-md-block"><img
+                src="{{ asset('assets/images/00-hp/left_mes.png') }}" class="img-fluid left-msg-img"
                 alt=""></a>
     </div>
 
@@ -97,7 +123,7 @@
                 </a>
             </div>
             <div class="col-4 s-location-btn align-self-center">
-                <a href="https://maps.app.goo.gl/gxEiwZ6gw3dVQYi77" target="_blank">
+                <a href="https://maps.app.goo.gl/kikwSDo1UVEUfD3y7" target="_blank">
                     <span><i class="bi bi-map-fill"></i></span> 地址導航
                 </a>
             </div>
@@ -140,6 +166,11 @@
             // },
         });
     </script>
+
+    @stack('third_party_scripts')
+
+    @stack('page_scripts')
+
 </body>
 
 </html>

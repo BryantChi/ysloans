@@ -111,7 +111,7 @@
                     <div class="col-12">
                         <div class="services-notice">
                             <h5>借款特色</h5>
-                            <p>年滿20歲之中華民國國民，免聯徵、免收入證明，不限職業皆可辦理</p>
+                            <p>年滿18歲之中華民國國民，免聯徵、免收入證明，不限職業皆可辦理</p>
                         </div>
                         <div class="services-notice">
                             <h5>應備文件</h5>

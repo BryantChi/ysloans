@@ -83,7 +83,7 @@
                             <div class="card shadow-sm services-item">
                                 <div class="card-body">
                                     <img src="{{asset('assets/images/00-hp/sericon03.svg')}}" class="img-fluid services-item-img" alt="">
-                                    <h5 class="card-title">房地融資代辦</h5>
+                                    <h5 class="card-title">房屋土地融資</h5>
                                 </div>
                             </div>
                         </a>
